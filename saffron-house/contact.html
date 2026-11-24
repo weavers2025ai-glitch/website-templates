@@ -99,13 +99,16 @@ body{background:#14100D;color:#EDE6DA}
 header.site{position:absolute;top:0;left:0;right:0;z-index:100;background:linear-gradient(rgba(10,8,6,.65),transparent)}
 .hbar{display:flex;flex-direction:column;align-items:center;gap:10px;padding:20px 0}
 .logo{font-family:var(--fd);font-size:31px;letter-spacing:.14em;color:#F3E9D2}
-nav.main{display:flex;gap:28px;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:#E7DCC4}
+nav.main{display:flex;gap:26px;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:#FFF6E3;background:var(--c1);padding:10px 26px;border-radius:99px;box-shadow:0 10px 26px rgba(0,0,0,.45);flex-wrap:wrap;justify-content:center}
+nav.main a{color:#FFF6E3;font-weight:700}
+nav.main a:hover{color:var(--c2)}
 .hero{position:relative;min-height:92vh;display:grid;place-items:center;text-align:center}
 .hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.45)}
 .hero .ht{position:relative;padding:120px 22px 70px;max-width:780px}
 .hero h1{font-size:clamp(40px,6vw,72px);color:#F7EFDB;font-weight:500}
 .hero h1 em{color:var(--c2)}
 .hero p{color:#DCD2BC;font-size:17px;margin:16px auto 26px;max-width:520px}
+.btn.ghost{background:#F7EFDB;color:#241A10;border:2px solid #F7EFDB}
 .kicker{letter-spacing:.34em;font-size:12px;text-transform:uppercase;color:var(--c2);font-weight:700}
 .sec.alt{background:#1B1510}
 .card{background:#1E1812;border-color:#33291D}
